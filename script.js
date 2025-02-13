@@ -1,17 +1,17 @@
-/* Variable and Alert Katas */
-// These katas do not involve functions and are very basic. 
-
-/* COLOR KATAS */
+/* AGE KATAS */
 
 /* Var Alert */
-// make a string variable for a color, set it equal to your favorite
-// alert the message" "My favorite color is " plus the color
+// make an integer variable for age, set it equal to your age
+
+// make a string variable for name, set it to your name
+
+// alert name is age years old
+
 
 /* Var Alert Prompt */
-// make a string variable for color, prompt the user for their favorite
-// alert color " is a nice color!"
-
-/* Var Alert Prompt Conditional */
-// make a variable for color, prompt the user for their favorite
-// if user enters "black" alert "Black is not really a color." 
-// otherwise alert color " is a nice color!"
+// make an integer variable for age, prompt user for their age
+var age = prompt("what is your age?");
+// make a string variable for name, prompt user for their name
+var name1 = prompt("what is your name?")
+// alert name is age years old
+alert(name1 + " is " + age + " years old"); 
